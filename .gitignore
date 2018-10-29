@@ -1,0 +1,6 @@
+*.class
+*.kotlin_module
+*.iml
+*.eml
+*.xml
+*.userlibraries
