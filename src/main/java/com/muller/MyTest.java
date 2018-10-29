@@ -16,11 +16,6 @@ public class MyTest {
         dao = new IStudentDaoImpl();
     }
 
-    @BeforeEach
-    public void before2() {
-        System.out.println("!!!!!!!!!!!!!!!!!!!!!");
-    }
-
     @Test
     public void testInsert() {
         System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
