@@ -4,3 +4,4 @@
 *.eml
 *.xml
 *.userlibraries
+target/classes/log4j.properties
