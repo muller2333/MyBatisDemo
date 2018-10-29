@@ -18,9 +18,17 @@ public class IStudentDaoImpl implements IStudentDao {
             SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(is);
             SqlSession session = factory.openSession();
             session.insert("insertStudent", student);
-//            session.commit();
+            session.commit();
         } catch (IOException e) {
             e.printStackTrace();
+        }finally {
+            if (is != null) {
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 }
