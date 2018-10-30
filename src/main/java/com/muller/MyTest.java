@@ -4,7 +4,6 @@ import com.muller.beans.Student;
 import com.muller.dao.IStudentDao;
 import com.muller.dao.impl.IStudentDaoImpl;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
