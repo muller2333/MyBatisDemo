@@ -17,3 +17,4 @@ bin/.gitignore
 .project
 target/classes/.gitignore
 >>>>>>> aa45c33e9ebca5dc044a296456bd2aadaf5dc976
+target/
