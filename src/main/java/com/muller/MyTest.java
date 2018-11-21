@@ -19,9 +19,8 @@ public class MyTest {
     @Test
     public void testInsert() {
         System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-        Student student = new Student("李白", 27, 94.5);
+        Student student = new Student("李白", 29, 93.5);
         dao.insertStu(student);
-
     }
 
 }
