@@ -13,7 +13,7 @@
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://localhost:3306/test?serverTimezone=UTC"/>
                 <property name="username" value="root"/>
-                <property name="password" value="fuckchina"/>
+                <property name="password" value="**************"/>
                 <!--<property name="driver" value="${driver}"/>-->
                 <!--<property name="url" value="${url}"/>-->
                 <!--<property name="username" value="${username}"/>-->
